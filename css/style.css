@@ -1,5 +1,5 @@
 .header{
-	background: url('../images/bloqup.png');
+	background: url('../images/bloqup.png') no-repeat #fff;
 	background-size: cover;
 	border-bottom: 1px solid #5d5a5a !Important;
 }
@@ -63,4 +63,27 @@
     position: absolute;
     border: 1px solid;
     padding: 51px 38px 105px 38px;
+}
+
+
+
+
+/*DETALLE*/
+
+.detLogo{
+	float: left;
+    width: 20%;
+    margin: 0 1% 0 100px;
+}
+
+.detlog{
+	width: 100% !important;
+    height: 91px !important;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.cabezaTexto{
+	width: 44%;
+	float: left;
 }

@@ -398,7 +398,7 @@ html.no-touch a:hover
 
 .footer{
 	position:absolute;
-	background: url(../img/white.png);
+	/*background: url(../img/white.png);*/
 	width:100%;
 	height:auto;
 	display:block;
@@ -423,13 +423,13 @@ html.no-touch a:hover
 	padding:1%;
 	margin-top: -5px;
 	text-transform: uppercase;
-	font-size: 1.5em;
+	font-size: 0.8em;
 	font-family: Regular;
-	color: #9da4ae;
+	color: #deca37 !important;
 	text-decoration: none !important;
 	width:auto;
 	position:relative;
-	float:left;
+	/*float:left;*/
 }
 
 .header img.headerlogo
@@ -454,7 +454,7 @@ html.no-touch .header a#materiais:hover,
 html.no-touch .header a#materiais:focus,
 html.no-touch .header a#materiais.active
 {
-	color: #973b41 !important;
+	color: #00aeef !important;
 	text-decoration: none;
 }
 
@@ -501,32 +501,35 @@ html.no-touch .header a#materiais.active
 .header a#materiais,
 .header a#materiais:visited
 {
-	padding:1%;
-	margin-top: -5px;
-	text-transform: uppercase;
-	font-size:1.5em;
-	font-family: Regular;
-	color: #9da4ae;
-	text-decoration: none !important;
-	width:auto;
-	position:relative;
-	float:right;
+    padding: 1%;
+    margin-top: 25px;
+    text-transform: uppercase;
+    /* font-size: 1.5em; */
+    font-family: Regular;
+    color: #fff !important;
+    text-decoration: none !important;
+    width: auto;
+    /* position: relative; */
+    float: right;
+    background: #585757;
+    margin: 0.3%;
 }
 
 .header h1.amb-title
 {
-	padding:1%;
-	margin-top: -5px;
-	text-transform: uppercase;
-	font-size:1.5em;
-	font-family: Regular;
-	color: #000;
-	text-decoration: none !important;
-	width:50%;
-	position:absolute;
-	left:25%;
-    top:0;
-    text-align:center;
+    padding: 1%;
+    /* margin-top: -5px; */
+    text-transform: uppercase;
+    font-size: 1.7em;
+    font-family: Regular;
+    color: #00aeef;
+    text-decoration: none !important;
+    /* width: 50%; */
+    /* position: absolute; */
+    left: 25%;
+    top: 0;
+    /* text-align: center; */
+    border-top: 1px solid #00aeef;
 }
 
 #content{
@@ -607,7 +610,7 @@ html.no-touch .header a#materiais.active
 }*/
 
 #index .hWrap1 {
-	/*background-color:#eee;*/
+	background-color:transparent;
 	width:100%;
 	position:absolute;
 	width:74%;
@@ -802,11 +805,11 @@ img.big{
 	text-transform: uppercase;
 	font-size: 1.5em;
 	font-family: Regular;
-	color: #9da4ae;
-	top: -60px;
+	color: #fff;
+	top: -64px;
 	width: 300px;
 	line-height: 40px;
-	background-image: url(../img/title.png);
+	background-image: url(../images/title.png);
 	background-repeat: no-repeat;
 	background-position-x: left;
 	display: block;
@@ -827,7 +830,7 @@ html.no-touch .footer h1:focus{
 .hWrap1,
 .footer div.pecas.hWrap1,.footer div.pecasx.hWrap1 {
    /*min-height:40%;*/
-    /*background-color:#eee;*/
+    background-color:rgba(0, 0, 0, 0.7);
   width:100%;
   height:8em;
   min-height: 0 !important;
@@ -971,7 +974,7 @@ html.no-touch .footer h1:focus{
 .footer div.pecasx p,
 .footer div.formatos p{
 	font-size: 11px;
-	color: #000000;
+	color: #fff;
 	width: 97px;
 	float: left;
 	text-align: center;

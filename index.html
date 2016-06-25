@@ -104,11 +104,18 @@
             <ul id="applied-tiles"></ul>
             
 			<div class="header">
-				<a href="#index" class="home" data-direction="reverse" data-transition="slide">&#60; Voltar</a>
-                <h1 class="amb-title">Title</h1>
-				<a id="guardar" href="#">gravar</a>
-				<a id="ajuda" href="#">AJUDA</a>
-                <a id="materiais" href="#">Materiais</a>
+				<div class="detLogo">
+					<img class="detlog headerlogo" alt="" src="images/logo.png" />
+				</div>
+				<div class="cabezaTexto">
+					<a href="#index" class="home" data-direction="reverse" data-transition="slide">&#60; Volver a Inicio</a>
+	                <h1 class="amb-title" style="margin:0">Title</h1>
+				</div>
+				<div>
+					<a id="ajuda" href="#">Ayuda</a>
+					<a id="guardar" href="#">Guardar</a>
+	                <a id="materiais" href="#">Materiales</a>
+				</div>
 			</div><!-- /header -->
 		
 			<div id="content" >
@@ -121,8 +128,8 @@
 			
 			<div class="footer">
 				<h1>produtos</h1><img class="seta" src="img/seta.png"/>
-				<a id="right" style="float:right; margin-right:30px; padding:5px; font-size:1.5em; margin-top:-40px; display:none;" href="#">>>></a>
-				<a id="left" style="float:right; margin-right:30px; padding:5px; font-size:1.5em; margin-top:-40px; display:none;" href="#">&#60;&#60;&#60;</a>
+				<a id="right" style="    float: right;margin-right: 30px;padding: 5px;font-size: 1.5em;margin-top: -40px;position: absolute;right: 0;top: 50%;display:none;" href="#">></a>
+				<a id="left" style="float: right;margin-right: 30px;padding: 5px;font-size: 1.5em;margin-top: -40px;position: absolute;left: 0;top: 50%;z-index: 99;display:none;" href="#">&#60;</a>
 				<div id="tiles" class='pecas' data-role='content' data-iscroll='{"hScroll":true,"vScroll":false,"resizeEvents":"orientationchange","scrollerClass":"hscroll3","wrapperClass":"hWrap1","scrollerContentClass":"hContent1","resizeWrapper":false}'>
 					<ol id='tileList'></ol>
 				</div>
