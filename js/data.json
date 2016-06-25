@@ -1,0 +1,172 @@
+[
+	{
+		"id": "23",
+		"title": "Área Externa / Varanda",
+		"image": "img/rea-externa-varanda-23-1398869963.png",
+		"imageBig": "img/rea-externa-varanda-23-1398869963-2.jpg",
+		"imageBigSize": "x=0;y=0;width=1408;height=1408",
+		"last_update": "1424082569",
+		"position": "1",
+		"surfaces": 
+			[{
+				"id": "41",
+				"id_item": "23",
+				"shape": "img/madeiras-ambiente-e-pavimento-1390559807.png",
+				"size": "x=0;y=846;width=1408;height=562",
+				"last_update": "1398269232",
+				"position": "1",
+				"categories":
+				[
+					{
+						"nombre": "LISO",
+						"position": "1",
+						"image":"img/categoria_1.jpg",
+						"tiles": 
+						[
+							{
+								"id": "1029",
+								"title": "Bosco primero",
+								"id_surface": "41",
+								"tileImage": "img/bosco-caramello-26x106-1029-1397211301.jpg",
+								"defaultImage": "img/bosco-caramello-26x106-1029-1397211301-2.png",
+								"last_update": "1397211302",
+								"position": "1"
+							}
+						]
+					},
+					{
+						"nombre": "RUSTICO",
+						"position": "2",
+						"image":"img/categoria_2.jpg",
+						"tiles": 
+						[
+							{
+								"id": "1029",
+								"title": "Bosco Caramello 26x106",
+								"id_surface": "41",
+								"tileImage": "img/bosco-caramello-26x106-1029-1397211301.jpg",
+								"defaultImage": "img/bosco-caramello-26x106-1029-1397211301-2.png",
+								"last_update": "1397211302",
+								"position": "1"
+							},
+							{
+								"id": "615",
+								"title": "Sidewalk xcxccx",
+								"id_surface": "41",
+								"tileImage": "img/sidewalk-63x63-615-1397211357.jpg",
+								"defaultImage": "img/sidewalk-63x63-615-1397211357-2.png",
+								"last_update": "1401273065",
+								"position": "21"
+							}
+						]
+					},
+					{
+						"nombre": "CRISTAL",
+						"position": "3",
+						"image":"img/categoria_3.jpg",
+						"tiles": 
+						[
+							{
+								"id": "1029",
+								"title": "Bosco Caramello cccc",
+								"id_surface": "41",
+								"tileImage": "img/bosco-caramello-26x106-1029-1397211301.jpg",
+								"defaultImage": "img/bosco-caramello-26x106-1029-1397211301-2.png",
+								"last_update": "1397211302",
+								"position": "1"
+							},
+							{
+								"id": "615",
+								"title": "Sidewalk xxxxx",
+								"id_surface": "41",
+								"tileImage": "img/sidewalk-63x63-615-1397211357.jpg",
+								"defaultImage": "img/sidewalk-63x63-615-1397211357-2.png",
+								"last_update": "1401273065",
+								"position": "21"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "42",
+				"id_item": "23",
+				"shape": "img/madeiras-ambiente-e-parede-1390559856.png",
+				"size": "x=221;y=528;width=730;height=386",
+				"last_update": "1401281793",
+				"position": "2",
+				"categories":
+				[
+					{
+						"nombre": "LISO",
+						"position": "1",
+						"image":"img/categoria_1.jpg",
+						"tiles": 
+						[
+							{
+								"id": "582",
+								"title": "Bosco Hidraulico 26x26",
+								"id_surface": "42",
+								"tileImage": "img/m-e-parede-bosco-hidraulico-1390560065.jpg",
+								"defaultImage": "img/m-e-parede-bosco-hidraulico-1390560065-2.png",
+								"last_update": "1401272840",
+								"position": "2"
+							},
+							{
+								"id": "615",
+								"title": "Sidewalk 63x63",
+								"id_surface": "41",
+								"tileImage": "img/sidewalk-63x63-615-1397211357.jpg",
+								"defaultImage": "img/sidewalk-63x63-615-1397211357-2.png",
+								"last_update": "1401273065",
+								"position": "21"
+							}
+						]
+					},
+					{
+						"nombre": "RUSTICO",
+						"position": "2",
+						"image":"img/categoria_2.jpg",
+						"tiles": 
+						[
+							{
+								"id": "1029",
+								"title": "Bosco Caramellosssdd",
+								"id_surface": "41",
+								"tileImage": "img/bosco-caramello-26x106-1029-1397211301.jpg",
+								"defaultImage": "img/bosco-caramello-26x106-1029-1397211301-2.png",
+								"last_update": "1397211302",
+								"position": "1"
+							}
+						]
+					},
+					{
+						"nombre": "CRISTAL",
+						"position": "3",
+						"image":"img/categoria_3.jpg",
+						"tiles": 
+						[
+							{
+								"id": "1029",
+								"title": "Bosco Caramellosssdd",
+								"id_surface": "41",
+								"tileImage": "img/bosco-caramello-26x106-1029-1397211301.jpg",
+								"defaultImage": "img/bosco-caramello-26x106-1029-1397211301-2.png",
+								"last_update": "1397211302",
+								"position": "1"
+							},
+							{
+								"id": "615",
+								"title": "Sidewalk 63x63",
+								"id_surface": "41",
+								"tileImage": "img/sidewalk-63x63-615-1397211357.jpg",
+								"defaultImage": "img/sidewalk-63x63-615-1397211357-2.png",
+								"last_update": "1401273065",
+								"position": "21"
+							}
+						]
+					}
+				]
+			}]
+	}
+]
