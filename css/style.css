@@ -119,11 +119,21 @@
 	}
 	.detLogo{
 		width: 80%;
-    	margin-left: 30px;
+    	margin-left: 46px;
 	}
 	.cabezaTexto{
 		width: 100%;
 	}
+	.amb-title{
+		text-align: center;
+	}
+	.header a#ajuda{
+		margin-right: 100px;
+	}
+	.header a.home{
+		margin-left: 155px;
+	}
+
 	#ambs{
 		width: 100% !important;
 	}
