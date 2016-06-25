@@ -78,10 +78,9 @@
 				</div>
 			</div><!-- /header -->
 			
-			<div class="footer">
-				<!-- <img class="logo" alt="logotipo" src="img/biancogres-small-logo.png"/> -->
+			<div class="footer2">
 				<div class="text_footer">
-					<p>
+					<p class="text_foot">
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -91,8 +90,13 @@
 					</div>
 				</div>
 			</div><!-- /footer -->
+
+			<div class="footer">
+				<!-- <img class="logo" alt="logotipo" src="img/biancogres-small-logo.png"/> -->
+			</div><!-- /footer -->
 			
 		</div><!-- /page -->
+
 		
 		
 		<div data-role="page" id="ambiente-detalhe" class="ambiente" data-amb="" data-url="" data-fullscreen="true">
@@ -149,6 +153,13 @@
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        
+
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.btn_ayuda').click(function(){
+					$("#landing").fadeIn(400);
+				});
+			})
+		</script>        
     </body>
 </html>

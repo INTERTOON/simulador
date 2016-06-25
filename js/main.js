@@ -751,6 +751,7 @@ function closeProducts(){
 		currentSurface = -1;
 		tileListStatus = false;
 		TweenLite.to($("#tiles"),0.5,{css:{height: 0}, ease: Expo.easeOut});
+		TweenLite.to($("#tilesx"),0.5,{css:{height: 0}, ease: Expo.easeOut});
 		$('img.seta').fadeOut(500);
 		
 		$('#right').fadeOut(500);

@@ -1,24 +1,49 @@
 .header{
 	background: url('../images/bloqup.png');
 	background-size: cover;
+	border-bottom: 1px solid #5d5a5a !Important;
 }
 
-.footer{
+.footer2{
 	background: url('../images/bloqdown.png') no-repeat;
 	height: 500px;
+	position: absolute;
+	width: 100%;
+	display: block;
+	bottom: 0;
+	left: 0;
+	z-index: 3000;
+	border: none !important;
+	text-shadow: none !important;
 }
 
 .btn_ayuda{
 	border: 1px solid;
 	padding: 10px;
-	background: red;
+	background: #5d5a5a;
+	float: right;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	color: #fff;
+	line-height: 3.5;
+	margin-top: 20px;
+	cursor: pointer;
 }
 
 .text_footer{
-	width: 500px;
-	right: 10%;
-	position: absolute;
-	bottom: 10%;
+    width: 640px;
+    right: 0;
+    position: absolute;
+    bottom: 5%;
+    border-top: 1px solid black;
+    padding-right: 115px;
+}
+
+.text_foot{
+	float: left;
+	width: 33em;
+	padding: 10px;
 }
 
 .contenedor_logo{
@@ -27,6 +52,7 @@
 	height: 200px;
 	width: 366px;
 	margin-left: 4em;
+	margin-bottom: 15px;
 }
 
 .contenido_derecha{
