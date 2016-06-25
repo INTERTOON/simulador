@@ -86,17 +86,17 @@ CategoriasObject.prototype.init = function ()
 
 function menusize(){
 	
-	$('.hscroll2').css({
-		'margin-bottom': '-262px'
-	});
+	// $('.hscroll2').css({
+	// 	'margin-bottom': '-262px'
+	// });
 	
-	if($('.hscroll2').width()<$(window).width()){
-		var width = $('.hscroll2').find('ol').width();
-		$('.hscroll2').css({
-			'left': '50%',
-			'margin-left': '-'+parseInt(width*0.5)+'px'
-		});
-	}
+	// if($('.hscroll2').width()<$(window).width()){
+	// 	var width = $('.hscroll2').find('ol').width();
+	// 	$('.hscroll2').css({
+	// 		'left': '50%',
+	// 		'margin-left': '-'+parseInt(width*0.5)+'px'
+	// 	});
+	// }
 	
 	$("#ambs").data("mobileIscrollview").refresh();
 	
