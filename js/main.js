@@ -127,7 +127,7 @@ function parseJSONData(data)
 		var item = "";
 		item += '<li>';
 		item += '<a href="#ambiente-detalhe?ambiente='+i+'" class="ambiente" data-transition="slide" data-amb="'+i+'">';
-        item += '<h1>'+JSONData[i]['title']+'</h1>';
+        // item += '<h1>'+JSONData[i]['title']+'</h1>';
 		item += '<img class="loading" alt="loading" src="img/ajax-loader.gif" />';
 		item += '<img alt="ambiente1" src="'+JSONData[i]['image']+'" />';
 		item += '</a>';
@@ -165,9 +165,9 @@ function updateAppliedTiles2(x){
 	for(var i = 0;i<appliedTiles[x].title.length;i++){
         var info = "";
         info += "<li>";
-        console.log(appliedTiles[i]);
-        console.log(appliedTiles[x]);
-        console.log(appliedTiles[x].title[i]);
+        // console.log(appliedTiles[i]);
+        // console.log(appliedTiles[x]);
+        // console.log(appliedTiles[x].title[i]);
         info += "<img src='"+appliedTiles[x].title[i].tileImagedefaultImage.src+"' class='peca'/>";
         info += "<p>"+appliedTiles[x].title[i].title+"</p>"
         info += "</li>";
@@ -509,29 +509,29 @@ function init(){
         console.log('here');
     });
      
-    $('#right').click(function(){
+     $('#right').click(function(){
      	$("#tiles").iscrollview("scrollTo", 100, 0, 100, true);
      	console.log('right');
-    });
+     });
      
-    $('#left').click(function(){
+     $('#left').click(function(){
      	$("#tiles").iscrollview("scrollTo", -100, 0, 100, true);
      	console.log('left');
-    });
+     });
      
-    $('a.setaScroll').click(function(e){
+      $('a.setaScroll').click(function(e){
      	e.preventDefault();
      	$("#ambs").iscrollview("scrollTo", 500, 0, 100, true);
      	console.log('right yo');
      	return false;
-    });
+     });
      
-    $('a.setaScrollLeft').click(function(e){
+     $('a.setaScrollLeft').click(function(e){
      	e.preventDefault();
      	$("#ambs").iscrollview("scrollTo", -500, 0, 100, true);
      	console.log('left yo');
      	return false;
-    });
+     });
      
     var formFree = true;
 	$("#formEmail").submit(function(e){
@@ -562,7 +562,7 @@ function init(){
 	        		}
 	        	}
 	        	
-	        	var urlCall = "actions.php";
+	        	var urlCall = "http://biancogres.viriatoeviriato.com.br/html/actions.php";
 	        	var data = {
 	        		email: $("#formEmail #email").val(),
 	        		image: imageData,
@@ -600,7 +600,8 @@ function init(){
 	        	
 	        }
 	        return false;
-		}	
+		}
+		
 	});
 	
 }
@@ -850,17 +851,18 @@ function detail_arr(i,currentSurface){
 	var a = 0;
 
 	for(var x = 0; x<totalTiles2; x++){
-		// console.log(globalImagesArray[currentAmbiente].surfaces[currentSurface].tiles[i].title[x].tileImage.src);
+		 console.log(globalImagesArray[currentAmbiente].surfaces[currentSurface].tiles[i].title[x].tileImage.src);
 		if(selectedShapeTiles[currentSurface] == x){
-			$("#tileListx").append("<li><a class='pecax active' onclick='tileClicked("+i+","+x+")' data-pecax='"+i+"' href='#'><img src='"+globalImagesArray[currentAmbiente].surfaces[currentSurface].tiles[i].title[x].tileImage.src+"' class='pecax'/></a><p>"+globalImagesArray[currentAmbiente].surfaces[currentSurface].tiles[i].title[x].title+"</p></li>");
+			$("#tileListx").append("<li><a class='pecax active' data-pecax='"+x+"' href='javascript:tileClicked("+i+","+x+");void(0);'><img src='"+globalImagesArray[currentAmbiente].surfaces[currentSurface].tiles[i].title[x].tileImage.src+"' class='pecax'/></a><p>"+globalImagesArray[currentAmbiente].surfaces[currentSurface].tiles[i].title[x].title+"</p></li>");
 		}else{
-			$("#tileListx").append("<li><a class='pecax' data-pecax='"+i+"' href='#'><img src='"+globalImagesArray[currentAmbiente].surfaces[currentSurface].tiles[i].title[x].tileImage.src+"' class='pecax'/></a><p>"+globalImagesArray[currentAmbiente].surfaces[currentSurface].tiles[i].title[x].title+"</p></li>");
+			$("#tileListx").append("<li><a class='pecax' data-pecax='"+x+"' href='javascript:tileClicked("+i+","+x+");void(0);'><img src='"+globalImagesArray[currentAmbiente].surfaces[currentSurface].tiles[i].title[x].tileImage.src+"' class='pecax'/></a><p>"+globalImagesArray[currentAmbiente].surfaces[currentSurface].tiles[i].title[x].title+"</p></li>");
 		}
 		li = null;
 		a = null;
 	}
 
-	// tileClicked(i);
+	 //tileClicked(i);
+	
 	$("#tilesx").data("mobileIscrollview").refresh();
 	TweenLite.to($("#tilesx"),0.5,{height: 175, ease: Expo.easeOut});
 		$("#tilesx").iscrollview("scrollToElement", "a.pecax:first-child");
@@ -873,34 +875,75 @@ function detail_arr(i,currentSurface){
 }
 
 
-function tileClicked(s,x)
+function buildTileList_lst(shape,xx){
+	currentSurface = shape;
+	// console.log(globalImagesArray);
+
+	var totalTiles2 = globalImagesArray[currentAmbiente].surfaces[currentSurface].tiles[shape].title.length;
+
+	$("#tileListx").html('');
+	$("#tilesx").css("display","none");
+	setTimeout(function(){ 
+		$("#tiles").css("display","none");
+		$("#tilesx").css("display","block");
+	}, 3000)
+	
+	var li = 0;
+	var a = 0;
+
+	for(var x = 0; x<totalTiles2; x++){
+		alert('a');
+		console.log(globalImagesArray[currentAmbiente].surfaces[currentSurface].tiles[xx].title[x].tileImage.src);
+		$("#tileListx").append("<li><a class='pecax' href='#'><img src='"+globalImagesArray[currentAmbiente].surfaces[currentSurface].tiles[xx].title[x].tileImage.src+"' class='peca'/></a><p>"+globalImagesArray[currentAmbiente].surfaces[currentSurface].tiles[xx].title[x].title+"</p></li>");
+		li = null;
+		a = null;
+	}
+	
+	// $("a.peca").on('click', tileClicked)
+	
+	$("#tilesx").data("mobileIscrollview").refresh();
+	TweenLite.to($("#tilesx"),0.5,{height: 175, ease: Expo.easeOut});
+		$("#tilesx").iscrollview("scrollToElement", "a.pecax:first-child");
+	$('#right').fadeIn(500);
+	$('#left').fadeIn(500);
+	$('img.seta').fadeIn(500,function(){
+		$("#tilesx").iscrollview("scrollToElement", "a.active");
+	});
+	tileListStatus = true;
+}
+
+function tileClicked(z,s)
 {
+	console.log("tileClicked");
 	if(!swipe){
-		$('a.pecax').removeClass('active');
-		$(this).addClass('active');
-		var tileId = parseInt($(this).data("pecax"));
-		// currentTile = tileId; 
-		currentTile = s; 
-		currentTileRecurrent = x; 
+		//$('a.pecax').removeClass('active');
+		//$(this).addClass('active');
+		//var tileId = parseInt($(this).data("pecax"));
+		//currentTile = tileId; 
+		currentTile = s;
+		currentTileZ = z; 
 		layers[2].children[currentSurface].destroy();
 		// console.log($(this).data("peca"));
-		// console.log(globalImagesArray[currentAmbiente].surfaces[currentSurface].tiles);
-		// console.log(globalImagesArray[currentAmbiente].surfaces[currentSurface].tiles[currentTile]);
+		console.log(globalImagesArray[currentAmbiente].surfaces[currentSurface].tiles);
+		console.log(globalImagesArray[currentAmbiente].surfaces[currentSurface].tiles[currentTileZ].title[currentTile].defaultImage);
 		
-		layers[2].children[currentSurface] = prepareImageToStage(globalImagesArray[currentAmbiente].surfaces[currentSurface].tiles[currentTile].title[currentTileRecurrent].tileImage, parseSize(JSONData[currentAmbiente].surfaces[currentSurface].size), parseSize(JSONData[currentAmbiente].imageBigSize));
+		layers[2].children[currentSurface] = prepareImageToStage(globalImagesArray[currentAmbiente].surfaces[currentSurface].tiles[currentTileZ].title[currentTile].tileImagedefaultImage, parseSize(JSONData[currentAmbiente].surfaces[currentSurface].size), parseSize(JSONData[currentAmbiente].imageBigSize));
 		layers[2].children[currentSurface].listening(false);
 		layers[2].layer.add(layers[2].children[currentSurface]);
 		layers[2].layer.draw();
 		selectedShapeTiles[currentSurface] = currentTile;
-        
+        /*
+        console.log(s);
+        console.log(appliedTiles);
+        console.log(appliedTiles[currentTile].title.length);
         for(var i = 0;i<appliedTiles[currentTile].title.length;i++){
             if(appliedTiles[i].index == currentSurface){
-                appliedTiles[i].image = globalImagesArray[currentAmbiente].surfaces[currentSurface].tiles[currentTile].title[i].tileImagedefaultImage, 
-                appliedTiles[i].title = globalImagesArray[currentAmbiente].surfaces[currentSurface].tiles[currentTile].title[i].title 
+                appliedTiles[i].image = globalImagesArray[currentAmbiente].surfaces[currentSurface].tiles[currentTile].tileImagedefaultImage, 
+                appliedTiles[i].title = globalImagesArray[currentAmbiente].surfaces[currentSurface].tiles[currentTile].title 
             }
-        }
-        
-        updateAppliedTiles2(i);
+        }*/
+         // alert(i);
+        //updateAppliedTiles2(i);
         
 	}
 	
@@ -946,6 +989,35 @@ function buildTileList(shape){
 	tileListStatus = true;
 }
 
+function tileClickedx()
+{
+	if(!swipe){
+		$('a.pecax').removeClass('active');
+		$(this).addClass('active');
+		var tileId = parseInt($(this).data("pecax"));
+		currentTile = tileId; 
+		layers[2].children[currentSurface].destroy();
+		console.log(globalImagesArray[currentAmbiente].surfaces[currentSurface].tiles);
+		console.log($(this));
+		console.log(globalImagesArray[currentAmbiente].surfaces[currentSurface].tiles[currentTile]);
+		layers[2].children[currentSurface] = prepareImageToStage(globalImagesArray[currentAmbiente].surfaces[currentSurface].tiles[currentTile].image, parseSize(JSONData[currentAmbiente].surfaces[currentSurface].size), parseSize(JSONData[currentAmbiente].imageBigSize));
+		layers[2].children[currentSurface].listening(false);
+		layers[2].layer.add(layers[2].children[currentSurface]);
+		layers[2].layer.draw();
+		selectedShapeTiles[currentSurface] = currentTile;
+        
+        for(var i = 0;i<appliedTiles.length;i++){
+            if(appliedTiles[i].index == currentSurface){
+                appliedTiles[i].image = globalImagesArray[currentAmbiente].surfaces[currentSurface].tiles[currentTile].thumb, 
+                appliedTiles[i].title = globalImagesArray[currentAmbiente].surfaces[currentSurface].tiles[currentTile].title 
+            }
+        }
+        
+        updateAppliedTiles();
+        
+	}
+	
+}
 
 function saveImage(e)
 {
@@ -1087,7 +1159,10 @@ function showAmbiente( urlObj, options )
 		$.mobile.changePage( $page, options );
 	};
 	
-	imageObj.src = 'img/biancogres-small-logo.png';	
+	imageObj.src = 'img/biancogres-small-logo.png';
+	  
+	
+	
 }
 
 function parseSize(unparsedSize){

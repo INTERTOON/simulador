@@ -1,18 +1,18 @@
 [
 	{
 		"id": "23",
-		"title": "Área Externa / Varanda",
-		"image": "img/rea-externa-varanda-23-1398869963.png",
-		"imageBig": "img/rea-externa-varanda-23-1398869963-2.jpg",
-		"imageBigSize": "x=0;y=0;width=1408;height=1408",
+		"title": "uno",
+		"image": "images/sec1.png",
+		"imageBig": "img/banio/base.jpg",
+		"imageBigSize": "x=0;y=0;width=1000;height=730",
 		"last_update": "1424082569",
 		"position": "1",
 		"surfaces": 
 			[{
 				"id": "41",
 				"id_item": "23",
-				"shape": "img/madeiras-ambiente-e-pavimento-1390559807.png",
-				"size": "x=0;y=846;width=1408;height=562",
+				"shape": "img/banio/piso-area.png",
+				"size": "x=0;y=0;width=1000;height=730",
 				"last_update": "1398269232",
 				"position": "1",
 				"categories":
@@ -28,7 +28,7 @@
 								"title": "Bosco primero",
 								"id_surface": "41",
 								"tileImage": "img/bosco-caramello-26x106-1029-1397211301.jpg",
-								"defaultImage": "img/bosco-caramello-26x106-1029-1397211301-2.png",
+								"defaultImage": "img/banio/piso.png",
 								"last_update": "1397211302",
 								"position": "1"
 							}
@@ -45,7 +45,7 @@
 								"title": "Bosco Caramello 26x106",
 								"id_surface": "41",
 								"tileImage": "img/bosco-caramello-26x106-1029-1397211301.jpg",
-								"defaultImage": "img/bosco-caramello-26x106-1029-1397211301-2.png",
+								"defaultImage": "img/banio/antioquia_natural_45x45_piso.png",
 								"last_update": "1397211302",
 								"position": "1"
 							},
@@ -54,7 +54,7 @@
 								"title": "Sidewalk xcxccx",
 								"id_surface": "41",
 								"tileImage": "img/sidewalk-63x63-615-1397211357.jpg",
-								"defaultImage": "img/sidewalk-63x63-615-1397211357-2.png",
+								"defaultImage": "img/banio/tasco_gris_60x60_piso.png",
 								"last_update": "1401273065",
 								"position": "21"
 							}
@@ -91,10 +91,114 @@
 			{
 				"id": "42",
 				"id_item": "23",
-				"shape": "img/madeiras-ambiente-e-parede-1390559856.png",
-				"size": "x=221;y=528;width=730;height=386",
+				"shape": "img/banio/pared-area.png",
+				"size": "x=0;y=0;width=1000;height=730",
 				"last_update": "1401281793",
 				"position": "2",
+				"categories":
+				[
+					{
+						"nombre": "LISO",
+						"position": "1",
+						"image":"img/sub-familia/liso.jpg",
+						"tiles": 
+						[
+							{
+								"id": "110000000",
+								"title": "PSO LSO AMERICA BLANCO 30X30 COM 1.5",
+								"id_surface": "42",
+								"tileImage": "img/amb-banio/110000000_thumb.jpg",
+								"defaultImage": "img/amb-banio/110000000.png",
+								"last_update": "1401272840",
+								"position": "2"
+							},
+							{
+								"id": "110000004",
+								"title": "PSO LSO PIEDRA BEIGE 30X30 EXT 1.5",
+								"id_surface": "41",
+								"tileImage": "img/amb-banio/110000004_thumb.jpg",
+								"defaultImage": "img/amb-banio/110000004.png",
+								"last_update": "1401273065",
+								"position": "21"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "43",
+				"id_item": "23",
+				"shape": "img/banio/inodoro-area.png",
+				"size": "x=0;y=0;width=1000;height=730",
+				"last_update": "1401281793",
+				"position": "3",
+				"categories":
+				[
+					{
+						"nombre": "INOD",
+						"position": "1",
+						"image":"img/bosco-caramello-26x106-1029-1397211301.jpg",
+						"tiles": 
+						[
+							{
+							"id": "582",
+							"title": "Bosco Hidraulico 26x26",
+							"id_surface": "42",
+							"tileImage": "img/m-e-parede-bosco-hidraulico-1390560065.jpg",
+							"defaultImage": "img/banio/inodoro.png",
+							"last_update": "1401272840",
+							"position": "2"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "44",
+				"id_item": "23",
+				"shape": "img/banio/lavatorio-area.png",
+				"size": "x=0;y=0;width=1000;height=730",
+				"last_update": "1401281793",
+				"position": "4",
+				"categories":
+				[
+					{
+						"nombre": "LAVA",
+						"position": "1",
+						"image":"img/bosco-caramello-26x106-1029-1397211301.jpg",
+						"tiles": 
+						[
+							{
+							"id": "582",
+							"title": "Bosco Hidraulico 26x26",
+							"id_surface": "42",
+							"tileImage": "img/m-e-parede-bosco-hidraulico-1390560065.jpg",
+							"defaultImage": "img/banio/lavatorio.png",
+							"last_update": "1401272840",
+							"position": "2"
+							}
+						]
+					}
+				]
+			}]
+	},
+
+	{
+		"id": "23",
+		"title": "dos",
+		"image": "images/sec2.png",
+		"imageBig": "img/banio/base.jpg",
+		"imageBigSize": "x=0;y=0;width=1000;height=730",
+		"last_update": "1424082569",
+		"position": "1",
+		"surfaces": 
+			[{
+				"id": "41",
+				"id_item": "23",
+				"shape": "img/banio/piso-area.png",
+				"size": "x=0;y=0;width=1000;height=730",
+				"last_update": "1398269232",
+				"position": "1",
 				"categories":
 				[
 					{
@@ -104,22 +208,13 @@
 						"tiles": 
 						[
 							{
-								"id": "582",
-								"title": "Bosco Hidraulico 26x26",
-								"id_surface": "42",
-								"tileImage": "img/m-e-parede-bosco-hidraulico-1390560065.jpg",
-								"defaultImage": "img/m-e-parede-bosco-hidraulico-1390560065-2.png",
-								"last_update": "1401272840",
-								"position": "2"
-							},
-							{
-								"id": "615",
-								"title": "Sidewalk 63x63",
+								"id": "1029",
+								"title": "Bosco primero",
 								"id_surface": "41",
-								"tileImage": "img/sidewalk-63x63-615-1397211357.jpg",
-								"defaultImage": "img/sidewalk-63x63-615-1397211357-2.png",
-								"last_update": "1401273065",
-								"position": "21"
+								"tileImage": "img/bosco-caramello-26x106-1029-1397211301.jpg",
+								"defaultImage": "img/banio/piso.png",
+								"last_update": "1397211302",
+								"position": "1"
 							}
 						]
 					},
@@ -131,12 +226,21 @@
 						[
 							{
 								"id": "1029",
-								"title": "Bosco Caramellosssdd",
+								"title": "Bosco Caramello 26x106",
 								"id_surface": "41",
 								"tileImage": "img/bosco-caramello-26x106-1029-1397211301.jpg",
-								"defaultImage": "img/bosco-caramello-26x106-1029-1397211301-2.png",
+								"defaultImage": "img/banio/antioquia_natural_45x45_piso.png",
 								"last_update": "1397211302",
 								"position": "1"
+							},
+							{
+								"id": "615",
+								"title": "Sidewalk xcxccx",
+								"id_surface": "41",
+								"tileImage": "img/sidewalk-63x63-615-1397211357.jpg",
+								"defaultImage": "img/banio/tasco_gris_60x60_piso.png",
+								"last_update": "1401273065",
+								"position": "21"
 							}
 						]
 					},
@@ -148,7 +252,7 @@
 						[
 							{
 								"id": "1029",
-								"title": "Bosco Caramellosssdd",
+								"title": "Bosco Caramello cccc",
 								"id_surface": "41",
 								"tileImage": "img/bosco-caramello-26x106-1029-1397211301.jpg",
 								"defaultImage": "img/bosco-caramello-26x106-1029-1397211301-2.png",
@@ -157,12 +261,841 @@
 							},
 							{
 								"id": "615",
-								"title": "Sidewalk 63x63",
+								"title": "Sidewalk xxxxx",
 								"id_surface": "41",
 								"tileImage": "img/sidewalk-63x63-615-1397211357.jpg",
 								"defaultImage": "img/sidewalk-63x63-615-1397211357-2.png",
 								"last_update": "1401273065",
 								"position": "21"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "42",
+				"id_item": "23",
+				"shape": "img/banio/pared-area.png",
+				"size": "x=0;y=0;width=1000;height=730",
+				"last_update": "1401281793",
+				"position": "2",
+				"categories":
+				[
+					{
+						"nombre": "LISO",
+						"position": "1",
+						"image":"img/sub-familia/liso.jpg",
+						"tiles": 
+						[
+							{
+								"id": "110000000",
+								"title": "PSO LSO AMERICA BLANCO 30X30 COM 1.5",
+								"id_surface": "42",
+								"tileImage": "img/amb-banio/110000000_thumb.jpg",
+								"defaultImage": "img/amb-banio/110000000.png",
+								"last_update": "1401272840",
+								"position": "2"
+							},
+							{
+								"id": "110000004",
+								"title": "PSO LSO PIEDRA BEIGE 30X30 EXT 1.5",
+								"id_surface": "41",
+								"tileImage": "img/amb-banio/110000004_thumb.jpg",
+								"defaultImage": "img/amb-banio/110000004.png",
+								"last_update": "1401273065",
+								"position": "21"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "43",
+				"id_item": "23",
+				"shape": "img/banio/inodoro-area.png",
+				"size": "x=0;y=0;width=1000;height=730",
+				"last_update": "1401281793",
+				"position": "3",
+				"categories":
+				[
+					{
+						"nombre": "INOD",
+						"position": "1",
+						"image":"img/bosco-caramello-26x106-1029-1397211301.jpg",
+						"tiles": 
+						[
+							{
+							"id": "582",
+							"title": "Bosco Hidraulico 26x26",
+							"id_surface": "42",
+							"tileImage": "img/m-e-parede-bosco-hidraulico-1390560065.jpg",
+							"defaultImage": "img/banio/inodoro.png",
+							"last_update": "1401272840",
+							"position": "2"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "44",
+				"id_item": "23",
+				"shape": "img/banio/lavatorio-area.png",
+				"size": "x=0;y=0;width=1000;height=730",
+				"last_update": "1401281793",
+				"position": "4",
+				"categories":
+				[
+					{
+						"nombre": "LAVA",
+						"position": "1",
+						"image":"img/bosco-caramello-26x106-1029-1397211301.jpg",
+						"tiles": 
+						[
+							{
+							"id": "582",
+							"title": "Bosco Hidraulico 26x26",
+							"id_surface": "42",
+							"tileImage": "img/m-e-parede-bosco-hidraulico-1390560065.jpg",
+							"defaultImage": "img/banio/lavatorio.png",
+							"last_update": "1401272840",
+							"position": "2"
+							}
+						]
+					}
+				]
+			}]
+	},
+
+	{
+		"id": "23",
+		"title": "tres",
+		"image": "images/sec3.png",
+		"imageBig": "img/banio/base.jpg",
+		"imageBigSize": "x=0;y=0;width=1000;height=730",
+		"last_update": "1424082569",
+		"position": "1",
+		"surfaces": 
+			[{
+				"id": "41",
+				"id_item": "23",
+				"shape": "img/banio/piso-area.png",
+				"size": "x=0;y=0;width=1000;height=730",
+				"last_update": "1398269232",
+				"position": "1",
+				"categories":
+				[
+					{
+						"nombre": "LISO",
+						"position": "1",
+						"image":"img/categoria_1.jpg",
+						"tiles": 
+						[
+							{
+								"id": "1029",
+								"title": "Bosco primero",
+								"id_surface": "41",
+								"tileImage": "img/bosco-caramello-26x106-1029-1397211301.jpg",
+								"defaultImage": "img/banio/piso.png",
+								"last_update": "1397211302",
+								"position": "1"
+							}
+						]
+					},
+					{
+						"nombre": "RUSTICO",
+						"position": "2",
+						"image":"img/categoria_2.jpg",
+						"tiles": 
+						[
+							{
+								"id": "1029",
+								"title": "Bosco Caramello 26x106",
+								"id_surface": "41",
+								"tileImage": "img/bosco-caramello-26x106-1029-1397211301.jpg",
+								"defaultImage": "img/banio/antioquia_natural_45x45_piso.png",
+								"last_update": "1397211302",
+								"position": "1"
+							},
+							{
+								"id": "615",
+								"title": "Sidewalk xcxccx",
+								"id_surface": "41",
+								"tileImage": "img/sidewalk-63x63-615-1397211357.jpg",
+								"defaultImage": "img/banio/tasco_gris_60x60_piso.png",
+								"last_update": "1401273065",
+								"position": "21"
+							}
+						]
+					},
+					{
+						"nombre": "CRISTAL",
+						"position": "3",
+						"image":"img/categoria_3.jpg",
+						"tiles": 
+						[
+							{
+								"id": "1029",
+								"title": "Bosco Caramello cccc",
+								"id_surface": "41",
+								"tileImage": "img/bosco-caramello-26x106-1029-1397211301.jpg",
+								"defaultImage": "img/bosco-caramello-26x106-1029-1397211301-2.png",
+								"last_update": "1397211302",
+								"position": "1"
+							},
+							{
+								"id": "615",
+								"title": "Sidewalk xxxxx",
+								"id_surface": "41",
+								"tileImage": "img/sidewalk-63x63-615-1397211357.jpg",
+								"defaultImage": "img/sidewalk-63x63-615-1397211357-2.png",
+								"last_update": "1401273065",
+								"position": "21"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "42",
+				"id_item": "23",
+				"shape": "img/banio/pared-area.png",
+				"size": "x=0;y=0;width=1000;height=730",
+				"last_update": "1401281793",
+				"position": "2",
+				"categories":
+				[
+					{
+						"nombre": "LISO",
+						"position": "1",
+						"image":"img/sub-familia/liso.jpg",
+						"tiles": 
+						[
+							{
+								"id": "110000000",
+								"title": "PSO LSO AMERICA BLANCO 30X30 COM 1.5",
+								"id_surface": "42",
+								"tileImage": "img/amb-banio/110000000_thumb.jpg",
+								"defaultImage": "img/amb-banio/110000000.png",
+								"last_update": "1401272840",
+								"position": "2"
+							},
+							{
+								"id": "110000004",
+								"title": "PSO LSO PIEDRA BEIGE 30X30 EXT 1.5",
+								"id_surface": "41",
+								"tileImage": "img/amb-banio/110000004_thumb.jpg",
+								"defaultImage": "img/amb-banio/110000004.png",
+								"last_update": "1401273065",
+								"position": "21"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "43",
+				"id_item": "23",
+				"shape": "img/banio/inodoro-area.png",
+				"size": "x=0;y=0;width=1000;height=730",
+				"last_update": "1401281793",
+				"position": "3",
+				"categories":
+				[
+					{
+						"nombre": "INOD",
+						"position": "1",
+						"image":"img/bosco-caramello-26x106-1029-1397211301.jpg",
+						"tiles": 
+						[
+							{
+							"id": "582",
+							"title": "Bosco Hidraulico 26x26",
+							"id_surface": "42",
+							"tileImage": "img/m-e-parede-bosco-hidraulico-1390560065.jpg",
+							"defaultImage": "img/banio/inodoro.png",
+							"last_update": "1401272840",
+							"position": "2"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "44",
+				"id_item": "23",
+				"shape": "img/banio/lavatorio-area.png",
+				"size": "x=0;y=0;width=1000;height=730",
+				"last_update": "1401281793",
+				"position": "4",
+				"categories":
+				[
+					{
+						"nombre": "LAVA",
+						"position": "1",
+						"image":"img/bosco-caramello-26x106-1029-1397211301.jpg",
+						"tiles": 
+						[
+							{
+							"id": "582",
+							"title": "Bosco Hidraulico 26x26",
+							"id_surface": "42",
+							"tileImage": "img/m-e-parede-bosco-hidraulico-1390560065.jpg",
+							"defaultImage": "img/banio/lavatorio.png",
+							"last_update": "1401272840",
+							"position": "2"
+							}
+						]
+					}
+				]
+			}]
+	},
+
+	{
+		"id": "23",
+		"title": "Cuatro",
+		"image": "images/sec4.png",
+		"imageBig": "img/banio/base.jpg",
+		"imageBigSize": "x=0;y=0;width=1000;height=730",
+		"last_update": "1424082569",
+		"position": "1",
+		"surfaces": 
+			[{
+				"id": "41",
+				"id_item": "23",
+				"shape": "img/banio/piso-area.png",
+				"size": "x=0;y=0;width=1000;height=730",
+				"last_update": "1398269232",
+				"position": "1",
+				"categories":
+				[
+					{
+						"nombre": "LISO",
+						"position": "1",
+						"image":"img/categoria_1.jpg",
+						"tiles": 
+						[
+							{
+								"id": "1029",
+								"title": "Bosco primero",
+								"id_surface": "41",
+								"tileImage": "img/bosco-caramello-26x106-1029-1397211301.jpg",
+								"defaultImage": "img/banio/piso.png",
+								"last_update": "1397211302",
+								"position": "1"
+							}
+						]
+					},
+					{
+						"nombre": "RUSTICO",
+						"position": "2",
+						"image":"img/categoria_2.jpg",
+						"tiles": 
+						[
+							{
+								"id": "1029",
+								"title": "Bosco Caramello 26x106",
+								"id_surface": "41",
+								"tileImage": "img/bosco-caramello-26x106-1029-1397211301.jpg",
+								"defaultImage": "img/banio/antioquia_natural_45x45_piso.png",
+								"last_update": "1397211302",
+								"position": "1"
+							},
+							{
+								"id": "615",
+								"title": "Sidewalk xcxccx",
+								"id_surface": "41",
+								"tileImage": "img/sidewalk-63x63-615-1397211357.jpg",
+								"defaultImage": "img/banio/tasco_gris_60x60_piso.png",
+								"last_update": "1401273065",
+								"position": "21"
+							}
+						]
+					},
+					{
+						"nombre": "CRISTAL",
+						"position": "3",
+						"image":"img/categoria_3.jpg",
+						"tiles": 
+						[
+							{
+								"id": "1029",
+								"title": "Bosco Caramello cccc",
+								"id_surface": "41",
+								"tileImage": "img/bosco-caramello-26x106-1029-1397211301.jpg",
+								"defaultImage": "img/bosco-caramello-26x106-1029-1397211301-2.png",
+								"last_update": "1397211302",
+								"position": "1"
+							},
+							{
+								"id": "615",
+								"title": "Sidewalk xxxxx",
+								"id_surface": "41",
+								"tileImage": "img/sidewalk-63x63-615-1397211357.jpg",
+								"defaultImage": "img/sidewalk-63x63-615-1397211357-2.png",
+								"last_update": "1401273065",
+								"position": "21"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "42",
+				"id_item": "23",
+				"shape": "img/banio/pared-area.png",
+				"size": "x=0;y=0;width=1000;height=730",
+				"last_update": "1401281793",
+				"position": "2",
+				"categories":
+				[
+					{
+						"nombre": "LISO",
+						"position": "1",
+						"image":"img/sub-familia/liso.jpg",
+						"tiles": 
+						[
+							{
+								"id": "110000000",
+								"title": "PSO LSO AMERICA BLANCO 30X30 COM 1.5",
+								"id_surface": "42",
+								"tileImage": "img/amb-banio/110000000_thumb.jpg",
+								"defaultImage": "img/amb-banio/110000000.png",
+								"last_update": "1401272840",
+								"position": "2"
+							},
+							{
+								"id": "110000004",
+								"title": "PSO LSO PIEDRA BEIGE 30X30 EXT 1.5",
+								"id_surface": "41",
+								"tileImage": "img/amb-banio/110000004_thumb.jpg",
+								"defaultImage": "img/amb-banio/110000004.png",
+								"last_update": "1401273065",
+								"position": "21"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "43",
+				"id_item": "23",
+				"shape": "img/banio/inodoro-area.png",
+				"size": "x=0;y=0;width=1000;height=730",
+				"last_update": "1401281793",
+				"position": "3",
+				"categories":
+				[
+					{
+						"nombre": "INOD",
+						"position": "1",
+						"image":"img/bosco-caramello-26x106-1029-1397211301.jpg",
+						"tiles": 
+						[
+							{
+							"id": "582",
+							"title": "Bosco Hidraulico 26x26",
+							"id_surface": "42",
+							"tileImage": "img/m-e-parede-bosco-hidraulico-1390560065.jpg",
+							"defaultImage": "img/banio/inodoro.png",
+							"last_update": "1401272840",
+							"position": "2"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "44",
+				"id_item": "23",
+				"shape": "img/banio/lavatorio-area.png",
+				"size": "x=0;y=0;width=1000;height=730",
+				"last_update": "1401281793",
+				"position": "4",
+				"categories":
+				[
+					{
+						"nombre": "LAVA",
+						"position": "1",
+						"image":"img/bosco-caramello-26x106-1029-1397211301.jpg",
+						"tiles": 
+						[
+							{
+							"id": "582",
+							"title": "Bosco Hidraulico 26x26",
+							"id_surface": "42",
+							"tileImage": "img/m-e-parede-bosco-hidraulico-1390560065.jpg",
+							"defaultImage": "img/banio/lavatorio.png",
+							"last_update": "1401272840",
+							"position": "2"
+							}
+						]
+					}
+				]
+			}]
+	},
+
+	{
+		"id": "23",
+		"title": "cinco",
+		"image": "images/sec5.png",
+		"imageBig": "img/banio/base.jpg",
+		"imageBigSize": "x=0;y=0;width=1000;height=730",
+		"last_update": "1424082569",
+		"position": "1",
+		"surfaces": 
+			[{
+				"id": "41",
+				"id_item": "23",
+				"shape": "img/banio/piso-area.png",
+				"size": "x=0;y=0;width=1000;height=730",
+				"last_update": "1398269232",
+				"position": "1",
+				"categories":
+				[
+					{
+						"nombre": "LISO",
+						"position": "1",
+						"image":"img/categoria_1.jpg",
+						"tiles": 
+						[
+							{
+								"id": "1029",
+								"title": "Bosco primero",
+								"id_surface": "41",
+								"tileImage": "img/bosco-caramello-26x106-1029-1397211301.jpg",
+								"defaultImage": "img/banio/piso.png",
+								"last_update": "1397211302",
+								"position": "1"
+							}
+						]
+					},
+					{
+						"nombre": "RUSTICO",
+						"position": "2",
+						"image":"img/categoria_2.jpg",
+						"tiles": 
+						[
+							{
+								"id": "1029",
+								"title": "Bosco Caramello 26x106",
+								"id_surface": "41",
+								"tileImage": "img/bosco-caramello-26x106-1029-1397211301.jpg",
+								"defaultImage": "img/banio/antioquia_natural_45x45_piso.png",
+								"last_update": "1397211302",
+								"position": "1"
+							},
+							{
+								"id": "615",
+								"title": "Sidewalk xcxccx",
+								"id_surface": "41",
+								"tileImage": "img/sidewalk-63x63-615-1397211357.jpg",
+								"defaultImage": "img/banio/tasco_gris_60x60_piso.png",
+								"last_update": "1401273065",
+								"position": "21"
+							}
+						]
+					},
+					{
+						"nombre": "CRISTAL",
+						"position": "3",
+						"image":"img/categoria_3.jpg",
+						"tiles": 
+						[
+							{
+								"id": "1029",
+								"title": "Bosco Caramello cccc",
+								"id_surface": "41",
+								"tileImage": "img/bosco-caramello-26x106-1029-1397211301.jpg",
+								"defaultImage": "img/bosco-caramello-26x106-1029-1397211301-2.png",
+								"last_update": "1397211302",
+								"position": "1"
+							},
+							{
+								"id": "615",
+								"title": "Sidewalk xxxxx",
+								"id_surface": "41",
+								"tileImage": "img/sidewalk-63x63-615-1397211357.jpg",
+								"defaultImage": "img/sidewalk-63x63-615-1397211357-2.png",
+								"last_update": "1401273065",
+								"position": "21"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "42",
+				"id_item": "23",
+				"shape": "img/banio/pared-area.png",
+				"size": "x=0;y=0;width=1000;height=730",
+				"last_update": "1401281793",
+				"position": "2",
+				"categories":
+				[
+					{
+						"nombre": "LISO",
+						"position": "1",
+						"image":"img/sub-familia/liso.jpg",
+						"tiles": 
+						[
+							{
+								"id": "110000000",
+								"title": "PSO LSO AMERICA BLANCO 30X30 COM 1.5",
+								"id_surface": "42",
+								"tileImage": "img/amb-banio/110000000_thumb.jpg",
+								"defaultImage": "img/amb-banio/110000000.png",
+								"last_update": "1401272840",
+								"position": "2"
+							},
+							{
+								"id": "110000004",
+								"title": "PSO LSO PIEDRA BEIGE 30X30 EXT 1.5",
+								"id_surface": "41",
+								"tileImage": "img/amb-banio/110000004_thumb.jpg",
+								"defaultImage": "img/amb-banio/110000004.png",
+								"last_update": "1401273065",
+								"position": "21"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "43",
+				"id_item": "23",
+				"shape": "img/banio/inodoro-area.png",
+				"size": "x=0;y=0;width=1000;height=730",
+				"last_update": "1401281793",
+				"position": "3",
+				"categories":
+				[
+					{
+						"nombre": "INOD",
+						"position": "1",
+						"image":"img/bosco-caramello-26x106-1029-1397211301.jpg",
+						"tiles": 
+						[
+							{
+							"id": "582",
+							"title": "Bosco Hidraulico 26x26",
+							"id_surface": "42",
+							"tileImage": "img/m-e-parede-bosco-hidraulico-1390560065.jpg",
+							"defaultImage": "img/banio/inodoro.png",
+							"last_update": "1401272840",
+							"position": "2"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "44",
+				"id_item": "23",
+				"shape": "img/banio/lavatorio-area.png",
+				"size": "x=0;y=0;width=1000;height=730",
+				"last_update": "1401281793",
+				"position": "4",
+				"categories":
+				[
+					{
+						"nombre": "LAVA",
+						"position": "1",
+						"image":"img/bosco-caramello-26x106-1029-1397211301.jpg",
+						"tiles": 
+						[
+							{
+							"id": "582",
+							"title": "Bosco Hidraulico 26x26",
+							"id_surface": "42",
+							"tileImage": "img/m-e-parede-bosco-hidraulico-1390560065.jpg",
+							"defaultImage": "img/banio/lavatorio.png",
+							"last_update": "1401272840",
+							"position": "2"
+							}
+						]
+					}
+				]
+			}]
+	},
+
+	{
+		"id": "23",
+		"title": "Seis",
+		"image": "images/sec6.png",
+		"imageBig": "img/banio/base.jpg",
+		"imageBigSize": "x=0;y=0;width=1000;height=730",
+		"last_update": "1424082569",
+		"position": "1",
+		"surfaces": 
+			[{
+				"id": "41",
+				"id_item": "23",
+				"shape": "img/banio/piso-area.png",
+				"size": "x=0;y=0;width=1000;height=730",
+				"last_update": "1398269232",
+				"position": "1",
+				"categories":
+				[
+					{
+						"nombre": "LISO",
+						"position": "1",
+						"image":"img/categoria_1.jpg",
+						"tiles": 
+						[
+							{
+								"id": "1029",
+								"title": "Bosco primero",
+								"id_surface": "41",
+								"tileImage": "img/bosco-caramello-26x106-1029-1397211301.jpg",
+								"defaultImage": "img/banio/piso.png",
+								"last_update": "1397211302",
+								"position": "1"
+							}
+						]
+					},
+					{
+						"nombre": "RUSTICO",
+						"position": "2",
+						"image":"img/categoria_2.jpg",
+						"tiles": 
+						[
+							{
+								"id": "1029",
+								"title": "Bosco Caramello 26x106",
+								"id_surface": "41",
+								"tileImage": "img/bosco-caramello-26x106-1029-1397211301.jpg",
+								"defaultImage": "img/banio/antioquia_natural_45x45_piso.png",
+								"last_update": "1397211302",
+								"position": "1"
+							},
+							{
+								"id": "615",
+								"title": "Sidewalk xcxccx",
+								"id_surface": "41",
+								"tileImage": "img/sidewalk-63x63-615-1397211357.jpg",
+								"defaultImage": "img/banio/tasco_gris_60x60_piso.png",
+								"last_update": "1401273065",
+								"position": "21"
+							}
+						]
+					},
+					{
+						"nombre": "CRISTAL",
+						"position": "3",
+						"image":"img/categoria_3.jpg",
+						"tiles": 
+						[
+							{
+								"id": "1029",
+								"title": "Bosco Caramello cccc",
+								"id_surface": "41",
+								"tileImage": "img/bosco-caramello-26x106-1029-1397211301.jpg",
+								"defaultImage": "img/bosco-caramello-26x106-1029-1397211301-2.png",
+								"last_update": "1397211302",
+								"position": "1"
+							},
+							{
+								"id": "615",
+								"title": "Sidewalk xxxxx",
+								"id_surface": "41",
+								"tileImage": "img/sidewalk-63x63-615-1397211357.jpg",
+								"defaultImage": "img/sidewalk-63x63-615-1397211357-2.png",
+								"last_update": "1401273065",
+								"position": "21"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "42",
+				"id_item": "23",
+				"shape": "img/banio/pared-area.png",
+				"size": "x=0;y=0;width=1000;height=730",
+				"last_update": "1401281793",
+				"position": "2",
+				"categories":
+				[
+					{
+						"nombre": "LISO",
+						"position": "1",
+						"image":"img/sub-familia/liso.jpg",
+						"tiles": 
+						[
+							{
+								"id": "110000000",
+								"title": "PSO LSO AMERICA BLANCO 30X30 COM 1.5",
+								"id_surface": "42",
+								"tileImage": "img/amb-banio/110000000_thumb.jpg",
+								"defaultImage": "img/amb-banio/110000000.png",
+								"last_update": "1401272840",
+								"position": "2"
+							},
+							{
+								"id": "110000004",
+								"title": "PSO LSO PIEDRA BEIGE 30X30 EXT 1.5",
+								"id_surface": "41",
+								"tileImage": "img/amb-banio/110000004_thumb.jpg",
+								"defaultImage": "img/amb-banio/110000004.png",
+								"last_update": "1401273065",
+								"position": "21"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "43",
+				"id_item": "23",
+				"shape": "img/banio/inodoro-area.png",
+				"size": "x=0;y=0;width=1000;height=730",
+				"last_update": "1401281793",
+				"position": "3",
+				"categories":
+				[
+					{
+						"nombre": "INOD",
+						"position": "1",
+						"image":"img/bosco-caramello-26x106-1029-1397211301.jpg",
+						"tiles": 
+						[
+							{
+							"id": "582",
+							"title": "Bosco Hidraulico 26x26",
+							"id_surface": "42",
+							"tileImage": "img/m-e-parede-bosco-hidraulico-1390560065.jpg",
+							"defaultImage": "img/banio/inodoro.png",
+							"last_update": "1401272840",
+							"position": "2"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "44",
+				"id_item": "23",
+				"shape": "img/banio/lavatorio-area.png",
+				"size": "x=0;y=0;width=1000;height=730",
+				"last_update": "1401281793",
+				"position": "4",
+				"categories":
+				[
+					{
+						"nombre": "LAVA",
+						"position": "1",
+						"image":"img/bosco-caramello-26x106-1029-1397211301.jpg",
+						"tiles": 
+						[
+							{
+							"id": "582",
+							"title": "Bosco Hidraulico 26x26",
+							"id_surface": "42",
+							"tileImage": "img/m-e-parede-bosco-hidraulico-1390560065.jpg",
+							"defaultImage": "img/banio/lavatorio.png",
+							"last_update": "1401272840",
+							"position": "2"
 							}
 						]
 					}

@@ -6,9 +6,9 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Porcelanato Biancogres | Simulador de ambiente</title>
-        <meta name="description" content="O simulador Biancogres ajuda você a escolher o porcelanato ideal para o ambiente que deseja construir e decorar. Aproveite!">
-        <meta name="keywords" content="simulador de ambiente, simulador biancogres " />
+        <title>Hipermercado Céramico | Simulador de ambiente</title>
+        <meta name="description" content="Simulador Hipermercado Ceramico">
+        <meta name="keywords" content="simulador de ambiente, simulador hipermercado " />
         <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 		<meta name="viewport" content="width=device-width, initial-scale=0.8, maximum-scale=0.8, user-scalable=no"/>
 	    <meta name="apple-mobile-web-app-capable" content="yes"/>
@@ -21,6 +21,7 @@
 	    <!-- <link href="css/jquery.mobile.iscrollview-pull.css" media="screen" rel="stylesheet" type="text/css" /> -->
 	    <!-- <link href="css/demo.css" media="screen" rel="stylesheet" type="text/css" /> -->
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/style.css">
        
         <script src="js/modernizr-2.6.2.min.js"></script>
         
@@ -29,9 +30,9 @@
     
    <body class="ambiente">
    	<div id="loading">
-   		<h1>carregando...</h1>
+   		<h1>Cargando...</h1>
    	</div>
-   	<div id="landing">
+   	<div id="landing" style="display:none">
    		
    	</div>
    	<div id="enviarImg">
@@ -61,21 +62,34 @@
    	<!-- <div><a id="close" onclick="window.close();" href="#">x</a></div> -->
 	<!-- Start of first page -->
 		<div data-role="page" id="index" data-url="/index.html" data-fullscreen="true">
-			<a class="setaScroll" href="#"><img alt="" src="img/scroll_right.png"></a>
-			<a class="setaScrollLeft" href="#"><img alt="" src="img/scroll_left.png"></a>
-			
-		
-			
-			
-			
+			<!-- <a class="setaScroll" href="#"><img alt="" src="img/scroll_right.png"></a>
+			<a class="setaScrollLeft" href="#"><img alt="" src="img/scroll_left.png"></a> -->
+
+			<div class="contenido_derecha">
+				<img src="images/txt_simulador.png" height="105" width="239" alt="">
+			</div>
 			<div id="ambs" data-role="content" data-iscroll='{"hScroll":true,"vScroll":false,"resizeEvents":"orientationchange","scrollerClass":"hscroll2","wrapperClass":"hWrap1","scrollerContentClass":"hContent1","resizeWrapper":false}'>
       			<ol></ol>
 			</div><!-- /content -->
+			
 			<div class="header">
-				<img class="headerlogo" alt="Biancogres" src="img/biancoLogo.png" />
+				<div class="contenedor_logo">
+					<img class="headerlogo" alt="" src="images/logo.png" />
+				</div>
 			</div><!-- /header -->
+			
 			<div class="footer">
-				<img class="logo" alt="logotipo" src="img/biancogres-small-logo.png"/>
+				<!-- <img class="logo" alt="logotipo" src="img/biancogres-small-logo.png"/> -->
+				<div class="text_footer">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					</p>
+					<div class="btn_ayuda">
+						Ayuda
+					</div>
+				</div>
 			</div><!-- /footer -->
 			
 		</div><!-- /page -->
@@ -133,7 +147,7 @@
 	    <script src="js/panzoom.js" type="text/javascript"></script>
 	    <script src="js/jquery.mousewheel.js" type="text/javascript"></script>
         <script src="js/plugins.js"></script>
-        <script src="js/_main.js"></script>
+        <script src="js/main.js"></script>
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         
     </body>
