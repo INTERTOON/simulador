@@ -611,10 +611,9 @@ html.no-touch .header a#materiais.active
 
 #index .hWrap1 {
 	background-color:transparent;
-	width:100%;
 	position:absolute;
 	width:74%;
-	height:80%;
+	height:80% !important;
 	right: 0;
     z-index: 3001;
 }

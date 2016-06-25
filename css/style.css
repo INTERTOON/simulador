@@ -87,3 +87,44 @@
 	width: 44%;
 	float: left;
 }
+
+
+
+@media (min-width: 768px) and (max-width: 1199px) {
+	/*#ambs{
+		width: 100%
+	}*/
+ }
+ 
+/* Móviles en horizontal o tablets en vertical
+   ------------------------------------------------------------------------- */
+@media (max-width: 767px) { 
+
+	.contenido_derecha{
+		display: none;
+	}
+}
+ 
+
+/* Móviles en vertical
+   ------------------------------------------------------------------------- */
+@media (max-width: 480px) {
+	.text_foot,.contenido_derecha{
+		display: none;
+	}
+	.btn_ayuda{
+		width: 100px;
+		height: 100px;
+		font-size: 26px;
+	}
+	.detLogo{
+		width: 80%;
+    	margin-left: 30px;
+	}
+	.cabezaTexto{
+		width: 100%;
+	}
+	#ambs{
+		width: 100% !important;
+	}
+}
