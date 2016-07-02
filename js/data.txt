@@ -1,0 +1,293 @@
+[
+	{
+		"id": "23",
+		"title": "Simulador de Baño",
+		"image": "images/sec1.png",
+		"imageBig": "img/amb-banio/base.jpg",
+		"imageBigSize": "x=0;y=0;width=1000;height=730",
+		"last_update": "1424082569",
+		"position": "1",
+		"surfaces": 
+			[{
+				"id": "41",
+				"id_item": "23",
+				"shape": "img/amb-banio/piso-area.png",
+				"size": "x=0;y=0;width=1000;height=730",
+				"last_update": "1398269232",
+				"position": "1",
+				"categories":
+				[
+					{
+						"nombre": "LISO",
+						"position": "1",
+						"image":"img/sub-familia/liso.jpg",
+						"tiles": 
+						[
+							{
+								"id": "110000114",
+								"title": "PSO LSO GRANILLA GRIS 30X30 COM 1.5",
+								"id_surface": "40",
+								"tileImage": "img/amb-banio/piso/110000114_thumb.jpg",
+								"defaultImage": "img/amb-banio/piso/110000114.png",
+								"last_update": "1397211302",
+								"position": "1"
+							},
+							{
+								"id": "110000115",
+								"title": "PSO LSO GRANILLA NEVADA 30X30 COM 1.5",
+								"id_surface": "41",
+								"tileImage": "img/amb-banio/piso/110000115_thumb.jpg",
+								"defaultImage": "img/amb-banio/piso/110000115.png",
+								"last_update": "1397211302",
+								"position": "1"
+							}
+						]
+					},
+					{
+						"nombre": "RUSTICO",
+						"position": "1",
+						"image":"img/sub-familia/rustico.jpg",
+						"tiles": 
+						[
+							{
+								"id": "110000878",
+								"title": "PSO LSO MURCIA AZUL 30X30 EXT 1.5",
+								"id_surface": "40",
+								"tileImage": "img/amb-banio/piso/110000878_thumb.jpg",
+								"defaultImage": "img/amb-banio/piso/110000878.png",
+								"last_update": "1397211302",
+								"position": "1"
+							},
+							{
+								"id": "110000991",
+								"title": "PSO LSO GRANILLA AZUL 30X30 EXT 1.5",
+								"id_surface": "41",
+								"tileImage": "img/amb-banio/piso/110000991_thumb.jpg",
+								"defaultImage": "img/amb-banio/piso/110000991.png",
+								"last_update": "1397211302",
+								"position": "1"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "42",
+				"id_item": "23",
+				"shape": "img/amb-banio/pared-area.png",
+				"size": "x=0;y=0;width=1000;height=730",
+				"last_update": "1401281793",
+				"position": "2",
+				"categories":
+				[
+					{
+						"nombre": "LISO",
+						"position": "1",
+						"image":"img/sub-familia/liso.jpg",
+						"tiles": 
+						[
+							{
+								"id": "110000000",
+								"title": "PSO LSO AMERICA BLANCO 30X30 COM 1.5",
+								"id_surface": "42",
+								"tileImage": "img/amb-banio/pared/110000000_thumb.jpg",
+								"defaultImage": "img/amb-banio/pared/110000000.png",
+								"last_update": "1401272840",
+								"position": "2"
+							},
+							{
+								"id": "110000004",
+								"title": "PSO LSO PIEDRA BEIGE 30X30 EXT 1.5",
+								"id_surface": "41",
+								"tileImage": "img/amb-banio/pared/110000004_thumb.jpg",
+								"defaultImage": "img/amb-banio/pared/110000004.png",
+								"last_update": "1401273065",
+								"position": "21"
+							}
+						]
+					},
+					{
+						"nombre": "RUSTICO",
+						"position": "1",
+						"image":"img/sub-familia/rustico.jpg",
+						"tiles": 
+						[
+							{
+								"id": "110000005",
+								"title": "PSO LSO PIEDRA BLANCO 30X30 COM 1.5",
+								"id_surface": "42",
+								"tileImage": "img/amb-banio/pared/110000005_thumb.jpg",
+								"defaultImage": "img/amb-banio/pared/110000005.png",
+								"last_update": "1401272840",
+								"position": "2"
+							},
+							{
+								"id": "110000006",
+								"title": "PSO LSO PIEDRA GRIS 30X30 EXT 1.5",
+								"id_surface": "41",
+								"tileImage": "img/amb-banio/pared/110000006_thumb.jpg",
+								"defaultImage": "img/amb-banio/pared/110000006.png",
+								"last_update": "1401273065",
+								"position": "21"
+							}
+						]
+					},
+					{
+						"nombre": "CRISTAL",
+						"position": "1",
+						"image":"img/sub-familia/cristal.jpg",
+						"tiles": 
+						[
+							{
+								"id": "110000005",
+								"title": "PSO LSO AMERICA BLANCO 40X40 EXT 1.5",
+								"id_surface": "42",
+								"tileImage": "img/amb-banio/pared/110000008_thumb.jpg",
+								"defaultImage": "img/amb-banio/pared/110000008.png",
+								"last_update": "1401272840",
+								"position": "2"
+							},
+							{
+								"id": "110000006",
+								"title": "PSO LSO AMERICA MARFIL 30X30 COM 1.5",
+								"id_surface": "41",
+								"tileImage": "img/amb-banio/pared/110000009_thumb.jpg",
+								"defaultImage": "img/amb-banio/pared/110000009.png",
+								"last_update": "1401273065",
+								"position": "21"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "43",
+				"id_item": "23",
+				"shape": "img/amb-banio/inodoro-area.png",
+				"size": "x=0;y=0;width=1000;height=730",
+				"last_update": "1401281793",
+				"position": "3",
+				"categories":
+				[
+					{
+						"nombre": "INODORO",
+						"position": "1",
+						"image":"img/sub-familia/inodoro.jpg",
+						"tiles": 
+						[
+							{
+							"id": "582",
+							"title": "Inodoro Savona",
+							"id_surface": "42",
+							"tileImage": "img/amb-banio/inodoro/inodoro-savona.jpg",
+							"defaultImage": "img/amb-banio/inodoro/inodoro-savona.png",
+							"last_update": "1401272840",
+							"position": "2"
+							},
+							{
+							"id": "583",
+							"title": "Inodoro Acqua",
+							"id_surface": "42",
+							"tileImage": "img/amb-banio/inodoro/inodoro_acqua_4.jpg",
+							"defaultImage": "img/amb-banio/inodoro/inodoro-acqua-4.png",
+							"last_update": "1401272840",
+							"position": "2"
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "44",
+				"id_item": "23",
+				"shape": "img/amb-banio/lavatorio-area.png",
+				"size": "x=0;y=0;width=1000;height=730",
+				"last_update": "1401281793",
+				"position": "4",
+				"categories":
+				[
+					{
+						"nombre": "LAVATORIO",
+						"position": "1",
+						"image":"img/sub-familia/lavatorio.jpg",
+						"tiles": 
+						[
+							{
+							"id": "584",
+							"title": "Lavatorio Manantial con Pedestal",
+							"id_surface": "42",
+							"tileImage": "img/amb-banio/lavatorio/lavatorio_manantial_con_pedestal_universal.jpg",
+							"defaultImage": "img/amb-banio/lavatorio/lavatorio_manantial_con_pedestal_universal.png",
+							"last_update": "1401272840",
+							"position": "2"
+							},
+							{
+							"id": "585",
+							"title": "Lavatorio Grecia con Pedestal",
+							"id_surface": "42",
+							"tileImage": "img/amb-banio/lavatorio/lavatorio_grecia_con_pedestal_grecia.jpg",
+							"defaultImage": "img/amb-banio/lavatorio/lavatorio_grecia_con_pedestal_grecia.png",
+							"last_update": "1401272840",
+							"position": "2"
+							}
+						]
+					}
+				]
+			}]
+	},
+	{
+		"id": "24",
+		"title": "Simulador de Cocina",
+		"image": "images/sec2.png",
+		"imageBig": "img/amb-banio/cocina.jpg",
+		"imageBigSize": "x=0;y=0;width=1000;height=730",
+		"last_update": "1424082569",
+		"position": "1",
+		"surfaces": 
+			[]
+	},
+	{
+		"id": "25",
+		"title": "Simulador de Comedor",
+		"image": "images/sec3.png",
+		"imageBig": "img/amb-banio/comedor.jpg",
+		"imageBigSize": "x=0;y=0;width=1000;height=730",
+		"last_update": "1424082569",
+		"position": "1",
+		"surfaces": 
+			[]
+	},
+	{
+		"id": "26",
+		"title": "Simulador de Dormitorio",
+		"image": "images/sec4.png",
+		"imageBig": "img/amb-banio/dormitorio.jpg",
+		"imageBigSize": "x=0;y=0;width=1000;height=730",
+		"last_update": "1424082569",
+		"position": "1",
+		"surfaces": 
+			[]
+	},
+	{
+		"id": "27",
+		"title": "Simulador de Sala",
+		"image": "images/sec5.png",
+		"imageBig": "img/amb-banio/sala.jpg",
+		"imageBigSize": "x=0;y=0;width=1000;height=730",
+		"last_update": "1424082569",
+		"position": "1",
+		"surfaces": 
+			[]
+	},
+	{
+		"id": "28",
+		"title": "Simulador de Terraza",
+		"image": "images/sec6.png",
+		"imageBig": "img/amb-banio/terraza.jpg",
+		"imageBigSize": "x=0;y=0;width=1000;height=730",
+		"last_update": "1424082569",
+		"position": "1",
+		"surfaces": 
+			[]
+	}
+]

@@ -177,7 +177,7 @@ function updateAppliedTiles2(x){
 
 function updateLoadingImages(){
 	totalImagesLoaded++;
-	$("#loading h1").text('carregando...'+parseFloat((totalImagesLoaded*100)/totalImagesToLoad).toFixed(1)+'%');
+	$("#loading h1").text('cargando...'+parseFloat((totalImagesLoaded*100)/totalImagesToLoad).toFixed(1)+'%');
 	if(totalImagesLoaded==totalImagesToLoad){
 		$('#loading').fadeOut(400);
 		menusize();
@@ -209,7 +209,7 @@ function prepareImageToLoadAmb(url)
 
 function updateLoadedImages(){
 	globalImagesArray[currentAmbiente].loadedImages++;
-	$('#percent p').text('carregando...'+parseFloat((globalImagesArray[currentAmbiente].loadedImages*100)/globalImagesArray[currentAmbiente].totalImages).toFixed(1)+'%');
+	$('#percent p').text('cargando...'+parseFloat((globalImagesArray[currentAmbiente].loadedImages*100)/globalImagesArray[currentAmbiente].totalImages).toFixed(1)+'%');
 	// console.log(globalImagesArray[currentAmbiente]);
 	// console.log(globalImagesArray[currentAmbiente].totalImages);
 	// console.log(parseFloat((globalImagesArray[currentAmbiente].loadedImages*100)/globalImagesArray[currentAmbiente].totalImages).toFixed(1));
@@ -261,7 +261,7 @@ function prepareAmbLoading()
 	var surfacesTotal = globalImagesArray[currentAmbiente].surfaces.length;		
 	for(var j = 0; j<surfacesTotal; j++)
 	{
-		// console.log('carregando...'+parseFloat((globalImagesArray[currentAmbiente].loadedImages*100)/globalImagesArray[currentAmbiente].totalImages).toFixed(1)+'%');
+		// console.log('cargando...'+parseFloat((globalImagesArray[currentAmbiente].loadedImages*100)/globalImagesArray[currentAmbiente].totalImages).toFixed(1)+'%');
 		// console.log(globalImagesArray[i].surfaces[j].shape);
 		// console.log(globalImagesArray[currentAmbiente].surfaces[j].tiles.length);
 		
@@ -342,9 +342,9 @@ function prepareDataForLoading(){
 function init(){
 	$.ajax({
 		type:'GET',
-		url:'js/data.json',
+		url:'js/data.txt',
 		dataType: 'json',
-		// crossDomain: false,
+		crossDomain: false,
 		success: parseJSONData
 	});
 	
@@ -562,7 +562,7 @@ function init(){
 	        		}
 	        	}
 	        	
-	        	var urlCall = "http://biancogres.viriatoeviriato.com.br/html/actions.php";
+	        	//var urlCall = "http://biancogres.viriatoeviriato.com.br/html/actions.php";
 	        	var data = {
 	        		email: $("#formEmail #email").val(),
 	        		image: imageData,
@@ -1695,7 +1695,7 @@ function done(){
 					
 					if(($(this).data('mask') == mask_id) && ($(this).data('peca') == peca_id)){
 						$(this).css({
-							'opacity': 0
+							'opacity': 0.5
 						});
 					}
 				
