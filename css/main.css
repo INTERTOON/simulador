@@ -136,10 +136,16 @@ textarea {
 img.seta{
 	width: 20px;
 	position: absolute;
-	left: 190px;
-	top: -20px;
+	/*left: 190px;*/
+	top: 30px;
 	z-index: 30;
+	right: 25px;
 	display:none;
+}
+
+#cabecera{
+	margin: 0;
+	color: #fff;
 }
 
 
@@ -793,25 +799,26 @@ img.big{
 }
 
 .footer h1{
-	margin: 0;
-	background-size: contain;
-	position: absolute;
-	padding-top: 22px;
-	padding-bottom: 22px;
-	padding-left: 35px;
-	padding-right: 60px;
-	
-	text-transform: uppercase;
-	font-size: 1.5em;
-	font-family: Regular;
-	color: #fff;
-	top: -64px;
-	width: 300px;
-	line-height: 40px;
-	background-image: url(../images/title.png);
-	background-repeat: no-repeat;
-	background-position-x: left;
-	display: block;
+    margin: 0;
+    background-size: contain;
+    position: absolute;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 35px;
+    padding-right: 60px;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-family: Regular;
+    color: #fff;
+    top: -77px;
+    /* width: 300px; */
+    /* line-height: 40px; */
+    /* background-image: url(../images/title.png); */
+    /* background-repeat: no-repeat; */
+    /* background-position-x: left; */
+    display: block;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 0 10px 0 0;
 }
 
 html.no-touch .footer h1:hover,

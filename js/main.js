@@ -158,17 +158,17 @@ function updateAppliedTiles(){
 }
 
 
-function updateAppliedTiles2(x){
+function updateAppliedTiles2(x,s){
     $('#applied-tiles').html('');
-    // console.log(appliedTiles[x].title);
-    // console.log(appliedTiles[i].title);
+    console.log(appliedTiles[x].title);
+    console.log(appliedTiles[s].title);
 	for(var i = 0;i<appliedTiles[x].title.length;i++){
         var info = "";
         info += "<li>";
         // console.log(appliedTiles[i]);
         // console.log(appliedTiles[x]);
         // console.log(appliedTiles[x].title[i]);
-        info += "<img src='"+appliedTiles[x].title[i].tileImagedefaultImage.src+"' class='peca'/>";
+        info += "<img src='"+appliedTiles[x].title[i].tileImagedefaultImage.src+"' class='pecas'/>";
         info += "<p>"+appliedTiles[x].title[i].title+"</p>"
         info += "</li>";
         $('#applied-tiles').append(info);
@@ -843,7 +843,7 @@ function categories(shape){
 function detail_arr(i,currentSurface){
 	// console.log(globalImagesArray[currentAmbiente].surfaces[currentSurface].tiles[i].title.length);
 	var totalTiles2 = globalImagesArray[currentAmbiente].surfaces[currentSurface].tiles[i].title.length;
-
+	$('#cabecera').text(globalImagesArray[currentAmbiente].surfaces[currentSurface].tiles[i].nombre);
 	$("#tileListx").html('');
 	$("#tiles").css("display","none");
 	$("#tilesx").css("display","block");
@@ -924,6 +924,7 @@ function tileClicked(z,s)
 		currentTile = s;
 		currentTileZ = z; 
 		layers[2].children[currentSurface].destroy();
+		$('#cabecera').text(globalImagesArray[currentAmbiente].surfaces[currentSurface].tiles[currentTileZ].nombre+"/"+globalImagesArray[currentAmbiente].surfaces[currentSurface].tiles[currentTileZ].title[currentTile].title);
 		// console.log($(this).data("peca"));
 		console.log(globalImagesArray[currentAmbiente].surfaces[currentSurface].tiles);
 		console.log(globalImagesArray[currentAmbiente].surfaces[currentSurface].tiles[currentTileZ].title[currentTile].defaultImage);
@@ -944,7 +945,7 @@ function tileClicked(z,s)
             }
         }*/
          // alert(i);
-        //updateAppliedTiles2(i);
+        updateAppliedTiles2(z,s);
         
 	}
 	
