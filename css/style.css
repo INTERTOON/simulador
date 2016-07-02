@@ -77,14 +77,14 @@
 }
 
 .detlog{
-	width: 100% !important;
-    height: 91px !important;
+	/*width: 100% !important;*/
+    height: 50px !important;
 	padding: 0 !important;
 	margin: 0 !important;
 }
 
 .cabezaTexto{
-	width: 44%;
+	width: 40%;
 	float: left;
 }
 

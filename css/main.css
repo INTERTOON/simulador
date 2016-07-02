@@ -504,7 +504,7 @@ html.no-touch .header a#materiais.active
     padding: 1%;
     margin-top: 25px;
     text-transform: uppercase;
-    /* font-size: 1.5em; */
+    font-size: 0.8em; 
     font-family: Regular;
     color: #fff !important;
     text-decoration: none !important;
@@ -520,7 +520,7 @@ html.no-touch .header a#materiais.active
     padding: 1%;
     /* margin-top: -5px; */
     text-transform: uppercase;
-    font-size: 1.7em;
+    font-size: 1.2em;
     font-family: Regular;
     color: #00aeef;
     text-decoration: none !important;
@@ -793,25 +793,24 @@ img.big{
 }
 
 .footer h1{
-	margin: 0;
-	background-size: contain;
-	position: absolute;
-	padding-top: 22px;
-	padding-bottom: 22px;
-	padding-left: 35px;
-	padding-right: 60px;
-	
-	text-transform: uppercase;
-	font-size: 1.5em;
-	font-family: Regular;
-	color: #fff;
-	top: -64px;
-	width: 300px;
-	line-height: 40px;
-	background-image: url(../images/title.png);
-	background-repeat: no-repeat;
-	background-position-x: left;
-	display: block;
+    margin: 0;
+    background-size: contain;
+    position: absolute;
+    /* padding-top: 22px; */
+    padding-bottom: 22px;
+    padding-left: 35px;
+    padding-right: 60px;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-family: Regular;
+    color: #fff;
+    top: -39px;
+    width: 300px;
+    line-height: 40px;
+    background-image: url(../images/title.png);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    display: block;
 }
 
 html.no-touch .footer h1:hover,
@@ -829,7 +828,7 @@ html.no-touch .footer h1:focus{
 .hWrap1,
 .footer div.pecas.hWrap1,.footer div.pecasx.hWrap1 {
    /*min-height:40%;*/
-    background-color:rgba(0, 0, 0, 0.7);
+    background-color:rgba(0, 0, 0, 0.4);
   width:100%;
   height:8em;
   min-height: 0 !important;
@@ -959,8 +958,8 @@ html.no-touch .footer h1:focus{
 	float: left;
 	position:relative;
 	/*margin-right:1%;*/
-	height:97px;
-	width:97px;
+	height:70px;
+	width:70px;
 	background-color: #000;
 	background-image: url(../img/ajax-loader.gif);
 	background-position: center;
@@ -972,9 +971,9 @@ html.no-touch .footer h1:focus{
 .footer div.pecas p,
 .footer div.pecasx p,
 .footer div.formatos p{
-	font-size: 11px;
+	font-size: 9px;
 	color: #fff;
-	width: 97px;
+	width: 70px;
 	float: left;
 	text-align: center;
 	clear: both;

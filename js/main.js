@@ -342,7 +342,7 @@ function prepareDataForLoading(){
 function init(){
 	$.ajax({
 		type:'GET',
-		url:'js/data.txt',
+		url:'js/data.json',
 		dataType: 'json',
 		crossDomain: false,
 		success: parseJSONData
@@ -830,7 +830,7 @@ function categories(shape){
 
 
 	$("#tiles").data("mobileIscrollview").refresh();
-	TweenLite.to($("#tiles"),0.5,{height: 175, ease: Expo.easeOut});
+	TweenLite.to($("#tiles"),0.5,{height: 130, ease: Expo.easeOut});
 		$("#tiles").iscrollview("scrollToElement", "a.peca:first-child");
 	$('#right').fadeIn(500);
 	$('#left').fadeIn(500);
@@ -865,7 +865,7 @@ function detail_arr(i,currentSurface){
 	 //tileClicked(i);
 	
 	$("#tilesx").data("mobileIscrollview").refresh();
-	TweenLite.to($("#tilesx"),0.5,{height: 175, ease: Expo.easeOut});
+	TweenLite.to($("#tilesx"),0.5,{height: 130, ease: Expo.easeOut});
 		$("#tilesx").iscrollview("scrollToElement", "a.pecax:first-child");
 	$('#right').fadeIn(500);
 	$('#left').fadeIn(500);
@@ -903,7 +903,7 @@ function buildTileList_lst(shape,xx){
 	// $("a.peca").on('click', tileClicked)
 	
 	$("#tilesx").data("mobileIscrollview").refresh();
-	TweenLite.to($("#tilesx"),0.5,{height: 175, ease: Expo.easeOut});
+	TweenLite.to($("#tilesx"),0.5,{height: 130, ease: Expo.easeOut});
 		$("#tilesx").iscrollview("scrollToElement", "a.pecax:first-child");
 	$('#right').fadeIn(500);
 	$('#left').fadeIn(500);
@@ -980,7 +980,7 @@ function buildTileList(shape){
 	$("a.peca").on('click', tileClicked)
 	
 	$("#tiles").data("mobileIscrollview").refresh();
-	TweenLite.to($("#tiles"),0.5,{height: 175, ease: Expo.easeOut});
+	TweenLite.to($("#tiles"),0.5,{height: 130, ease: Expo.easeOut});
 		$("#tiles").iscrollview("scrollToElement", "a.peca:first-child");
 	$('#right').fadeIn(500);
 	$('#left').fadeIn(500);
