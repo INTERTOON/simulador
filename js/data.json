@@ -11,6 +11,7 @@
 			[{
 				"id": "41",
 				"id_item": "23",
+				"nombre": "Piso",
 				"shape": "img/amb-banio/piso-area.png",
 				"size": "x=0;y=0;width=1000;height=730",
 				"last_update": "1398269232",
@@ -74,6 +75,7 @@
 			{
 				"id": "42",
 				"id_item": "23",
+				"nombre": "Pared",
 				"shape": "img/amb-banio/pared-area.png",
 				"size": "x=0;y=0;width=1000;height=730",
 				"last_update": "1401281793",
@@ -163,6 +165,7 @@
 			{
 				"id": "43",
 				"id_item": "23",
+				"nombre": "Inodoro",
 				"shape": "img/amb-banio/inodoro-area.png",
 				"size": "x=0;y=0;width=1000;height=730",
 				"last_update": "1401281793",
@@ -200,36 +203,37 @@
 			{
 				"id": "44",
 				"id_item": "44",
+				"nombre": "Lavatorio",
 				"shape": "img/amb-banio/lavatorio-area.png",
 				"size": "x=0;y=0;width=1000;height=730",
 				"last_update": "1401281793",
-				"position": "44",
+				"position": "4",
 				"categories":
 				[
 					{
 						"nombre": "LAVATORIO",
-						"position": "1",
+						"position": "2",
 						"image":"img/sub-familia/lavatorio.jpg",
 						"tiles": 
 						[
 							{
-							"id": "584",
-							"title": "Lavatorio Manantial con Pedestal",
-							"id_surface": "43",
-							"tileImage": "img/amb-banio/lavatorio/lavatorio_manantial_con_pedestal_universal.jpg",
-							"defaultImage": "img/amb-banio/lavatorio/lavatorio_manantial_con_pedestal_universal.png",
-							"last_update": "1401272840",
-							"position": "44"
-							},
-							{
 							"id": "585",
 							"title": "Lavatorio Grecia con Pedestal",
 							"id_surface": "43",
-							"tileImage": "img/amb-banio/lavatorio/lavatorio_grecia_con_pedestal_grecia.jpg",
-							"defaultImage": "img/amb-banio/lavatorio/lavatorio_grecia_con_pedestal_grecia.png",
+							"tileImage": "img/amb-banio/lavatorio/lavatorio_grecia.jpg",
+							"defaultImage": "img/amb-banio/lavatorio/lavatorio_grecia.png",
 							"last_update": "1401272840",
-							"position": "44"
-							}
+							"position": "4"
+							},
+							{
+							"id": "584",
+							"title": "Lavatorio Manantial con Pedestal",
+							"id_surface": "43",
+							"tileImage": "img/amb-banio/lavatorio/lavatorio_manantial.jpg",
+							"defaultImage": "img/amb-banio/lavatorio/lavatorio_manantial.png",
+							"last_update": "1401272840",
+							"position": "4"
+							}							
 						]
 					}
 				]

@@ -137,10 +137,11 @@ img.seta{
 	width: 20px;
 	position: absolute;
 	/*left: 190px;*/
-	top: 30px;
+	top: 18px;
 	z-index: 30;
 	right: 25px;
 	display:none;
+	cursor: pointer;
 }
 
 #cabecera{
@@ -245,7 +246,7 @@ outline: 0 !important;
 a,
 a:visited{
 	font-family: Regular;
-	color: #9da4ae !important;
+	color: #00aeef !important;
 	text-decoration: none !important;
 }
 
@@ -802,40 +803,30 @@ img.big{
     margin: 0;
     background-size: contain;
     position: absolute;
-<<<<<<< HEAD
     /* padding-top: 22px; */
-=======
-    padding-top: 22px;
->>>>>>> origin/master
-    padding-bottom: 22px;
     padding-left: 35px;
     padding-right: 60px;
     text-transform: uppercase;
-<<<<<<< HEAD
-    font-size: 1em;
     font-family: Regular;
     color: #fff;
     top: -39px;
     width: 300px;
-    line-height: 40px;
+    line-height: 39px;
     background-image: url(../images/title.png);
     background-repeat: no-repeat;
     background-position-x: left;
     display: block;
-=======
-    font-size: 1.5em;
     font-family: Regular;
     color: #fff;
-    top: -77px;
+    /* top: -77px; */
     /* width: 300px; */
     /* line-height: 40px; */
     /* background-image: url(../images/title.png); */
     /* background-repeat: no-repeat; */
     /* background-position-x: left; */
     display: block;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.4);
     border-radius: 0 10px 0 0;
->>>>>>> origin/master
 }
 
 html.no-touch .footer h1:hover,
