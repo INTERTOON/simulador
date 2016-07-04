@@ -159,7 +159,7 @@ function updateAppliedTiles(){
 }
 
 
-function updateAppliedTiles2(x,s){
+/*function updateAppliedTiles2(x,s){
     $('#applied-tiles').html('');
     //console.log(appliedTiles[x].title);
     //console.log(appliedTiles[s].title);
@@ -174,7 +174,7 @@ function updateAppliedTiles2(x,s){
         info += "</li>";
         $('#applied-tiles').append(info);
     }
-}
+}*/
 
 function updateLoadingImages(){
 	totalImagesLoaded++;
@@ -917,17 +917,19 @@ function tileClicked(z,s)
 		selectedShapeTiles[currentSurface] = currentTile;
 		//selectedShapeTiles[currentSurfaceZ] = currentTileZ;
         
-        //console.log(s);
+        //console.log(currentSurface);
         //console.log(appliedTiles);
-        console.log(appliedTiles[currentTile]);
-        /*or(var i = 0;i<appliedTiles[currentTile].title.length;i++){
+        //console.log(appliedTiles[currentTile]);
+        appliedTiles[currentSurface].image = globalImagesArray[currentAmbiente].surfaces[currentSurface].tiles[currentTileZ].title[currentTile].tileImage, 
+        appliedTiles[currentSurface].title = globalImagesArray[currentAmbiente].surfaces[currentSurface].tiles[currentTileZ].title[currentTile].id+" - "+globalImagesArray[currentAmbiente].surfaces[currentSurface].tiles[currentTileZ].title[currentTile].title
+        /*for(var i = 0;i<appliedTiles[currentTile].title.length;i++){
             if(appliedTiles[i].index == currentSurface){
                 appliedTiles[i].image = globalImagesArray[currentAmbiente].surfaces[currentSurface].tiles[currentTileZ].title[currentTile].tileImage, 
                 appliedTiles[i].title = globalImagesArray[currentAmbiente].surfaces[currentSurface].tiles[currentTile].title[currentTile].title
             }
         }*/
          // alert(i);
-       //updateAppliedTiles();        
+       updateAppliedTiles();        
 	}
 	
 }
@@ -1091,7 +1093,7 @@ function showAmbiente( urlObj, options )
 	        appliedTiles.push({
 	            index: i,
 	            image: globalImagesArray[currentAmbiente].surfaces[i].tiles[0].title[0].tileImage,
-	            title: globalImagesArray[currentAmbiente].surfaces[i].tiles[0].title[0].title
+	            title: globalImagesArray[currentAmbiente].surfaces[i].tiles[0].title[0].id+" - "+globalImagesArray[currentAmbiente].surfaces[i].tiles[0].title[0].title
 	        });
 	        
 			// console.log(globalImagesArray[currentAmbiente].surfaces[i].shape);
@@ -1134,7 +1136,7 @@ function showAmbiente( urlObj, options )
 		// add the layer to the stage
 	    mainStage.add(logo);
 	    
-        updateAppliedTiles();
+        //updateAppliedTiles();
         
 	    $page.page();
 	

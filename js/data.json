@@ -11,7 +11,7 @@
 			[{
 				"id": "41",
 				"id_item": "23",
-				"nombre": "Piso",
+				"nombre": "Pisos",
 				"shape": "img/amb-banio/piso-area.png",
 				"size": "x=0;y=0;width=1000;height=730",
 				"last_update": "1398269232",
@@ -75,7 +75,7 @@
 			{
 				"id": "42",
 				"id_item": "23",
-				"nombre": "Pared",
+				"nombre": "Paredes",
 				"shape": "img/amb-banio/pared-area.png",
 				"size": "x=0;y=0;width=1000;height=730",
 				"last_update": "1401281793",
@@ -165,7 +165,7 @@
 			{
 				"id": "43",
 				"id_item": "23",
-				"nombre": "Inodoro",
+				"nombre": "Inodoros",
 				"shape": "img/amb-banio/inodoro-area.png",
 				"size": "x=0;y=0;width=1000;height=730",
 				"last_update": "1401281793",
@@ -203,7 +203,7 @@
 			{
 				"id": "44",
 				"id_item": "44",
-				"nombre": "Lavatorio",
+				"nombre": "Lavatorios",
 				"shape": "img/amb-banio/lavatorio-area.png",
 				"size": "x=0;y=0;width=1000;height=730",
 				"last_update": "1401281793",
